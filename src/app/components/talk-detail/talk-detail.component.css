@@ -1,0 +1,9 @@
+.talk-card {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.talk-header-image {
+  background-image: url('https://punchcard.io/wp-content/uploads/2016/02/icon-angular.svg');
+  background-size: cover;
+}

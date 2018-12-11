@@ -1,0 +1,14 @@
+<mat-card *ngIf="talk" class="talk-card">
+    <mat-card-header>
+      <div mat-card-avatar class="talk-header-image"></div>
+      <mat-card-title><a [routerLink]="['/talk', talk.id]">{{talk.title}}</a></mat-card-title>
+      <mat-card-subtitle> Rating
+          <span id="rating">{{talk.rating}}</span></mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+          {{talk.description}}
+      </p>
+      <span id="speaker">Speaker: <em>{{talk.speaker}}</em></span>
+    </mat-card-content>
+  </mat-card>

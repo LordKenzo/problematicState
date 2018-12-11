@@ -1,0 +1,9 @@
+.talk-card {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.talk-header-image {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/600px-Angular_full_color_logo.svg.png');
+  background-size: cover;
+}
